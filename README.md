@@ -21,6 +21,9 @@ Uses ODBC Driver 17 for SQL Server and pyodbc module.
 pip install https://github.com/yxuan1996/sql_server_database_utils/releases/download/Production/sql_database_utils-0.2.0-py3-none-any.whl
 ```
 
+## View Documentation
+[Documentation](https://yxuan1996.github.io/sql_server_database_utils/)
+
 ## Building the wheel
 `setup.py` contains instructions on how to package the module.
 

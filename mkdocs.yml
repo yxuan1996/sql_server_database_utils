@@ -1,0 +1,52 @@
+site_name: SQL Database Utils
+site_description: Utility functions for reading and manipulating data from SQL Server Databases
+site_author: Sim Yi Xuan
+site_url: https://github.com/yxuan1996/sql_server_database_utils
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - Usage Guide: usage.md
+  - API Reference:
+    - Functions: api/functions.md
+  - Building & Deployment: building.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - pymdownx.highlight:
+      use_pygments: true
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - toc:
+      permalink: true
+  - admonition
+  - pymdownx.details
+
+repo_url: https://github.com/yxuan1996/sql_server_database_utils
+repo_name: sql_server_database_utils
+edit_uri: edit/main/docs/
+
+copyright: Copyright &copy; 2024 Sim Yi Xuan
