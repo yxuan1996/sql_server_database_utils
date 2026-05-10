@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: sql_database_utils
+Version: 0.2.0
+Summary: Utility functions for reading tables from SQL Server
+Home-page: 
+Author: Sim Yi Xuan
+Classifier: Development Status :: Development
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Benchmarking
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: pyodbc
